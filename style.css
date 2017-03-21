@@ -1,0 +1,147 @@
+/*GENERAL STYLES*/
+body{
+font-family: Arial, San-serif;
+font-size: 100%; 
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style-type:none;
+}
+a{
+	text-decoration: none;
+}
+p{
+	font-size: 13px;
+	line-height: 1.3em;
+}
+
+/*HEADER*/
+.header{
+	height:445px;
+	padding: 50px 0;
+	background-image:url("header.png");
+	background-repeat: no-repeat;
+	border-radius: 10px 10px 0 0; 
+}
+.header h1 {
+	font: italic bold 50px/1.4 Tahoma, sans-serif;
+	color: greenyellow;
+	text-align: left;
+	margin-left: 50px;
+	animation: shadow  2s infinite ease-in-out;
+
+}
+
+
+
+
+/*NAVIGATION*/
+.navigation{
+	background-color:#222;
+	border-color: #9d9d9d;
+	min-height: 64px;
+	border-radius: 0 0 10px 10px; 
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.navigation li{ 
+	float: left;
+	width: 200px;
+}
+.navigation a{
+	display: block;
+	color:#9d9d9d;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+.navigation a:hover{
+	color: yellowgreen;
+	background-color: black;
+
+
+}
+
+/*MAIN PART*/
+.main{
+	width: 960px;
+	height: 1000px;
+	
+	margin: 30px auto;
+	padding: 10px 10px 10px 10px;
+	border-radius: 10px; 
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+ 
+
+}
+
+.wrapper-block{
+	width: 920px;
+	height: 800px;
+	padding: 10px 10px 10px 10px;
+	margin:10px 10px 10px 10px;
+
+
+
+}
+
+.block1, .block2, .block3, .block4{	
+	width: 350px;
+	height:350px;
+	position: relative;
+	float: left;
+	margin: 30px 55px 10px 55px;
+	border-radius: 10px; 
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+}
+
+.block1:hover, .block2:hover, .block3:hover, .block4:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition-duration: .5s;
+  background-color: rgb(247, 249, 252);
+}
+ .realty-img img{
+	width: 300px;
+	height: 250px;
+	margin:30px 25px;
+	border-radius: 10px; 
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.realty-img p{
+font-family: Arial, San-serif;
+font-size: 20px;
+font-weight: bold;
+color: #4f5359; 
+margin: 0 0 30px 40px;
+
+}
+
+/*FOOTER*/
+.footer{
+	background-color: yellowgreen;
+	color: white;
+	padding: 20px 0;
+	margin-top: 30px;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+}
+	
+
+@keyframes shadow {
+from {
+  text-shadow: 0 0 3px black;
+}
+50% {
+  text-shadow: 0 0 30px black;
+}
+to {
+  text-shadow: 0 0 3px black;
+}
+}
+
