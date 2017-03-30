@@ -1,6 +1,6 @@
 $(document).ready(function () {
        var myHeader = $('.header'); 
-        myHeader.hide(2000);
+        myHeader.hide();
           myHeader.slideDown(3000);   
 
         });
