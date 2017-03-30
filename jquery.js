@@ -1,5 +1,5 @@
 $(document).ready(function () {
-       var myHeader $('header'); 
+       var myHeader = $('header'); 
         myHeader.hide(2000);
           myHeader.show(3000);    
 
