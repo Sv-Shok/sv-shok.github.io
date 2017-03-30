@@ -1,5 +1,5 @@
 $(document).ready(function () {
-        myHeader.hide();
+        myHeader.hide(2000);
         myHeader.slideDown(3000);      
 
         });
