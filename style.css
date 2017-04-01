@@ -64,6 +64,35 @@ p{
 
 }
 
+/*weather*/
+#main{
+	position: absolute;	
+	width: 170px;
+	height: 100px;
+	margin-top: 10px;
+	border-radius: 10px; 
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	
+}
+
+#main p {
+	width: 100px;
+	padding-left:50px;
+	font-family: Arial, San-serif;
+font-size: 20px;
+font-weight: bold;
+color: #4f5359; 
+	
+}
+
+#city{
+	border-radius: 10px; 
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	width: 160px;
+	border-radius: 10px;
+
+}
+
 /*MAIN PART*/
 .main{
 	width: 960px;
