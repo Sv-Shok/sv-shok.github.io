@@ -124,6 +124,7 @@ color: #4f5359;
 	margin: 30px 55px 10px 55px;
 	border-radius: 10px; 
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	transition-duration: .5s;
 
 }
 
@@ -131,7 +132,7 @@ color: #4f5359;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition-duration: .5s;
+ 
   background-color: rgb(247, 249, 252);
 }
  .realty-img img{
